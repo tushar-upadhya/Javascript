@@ -1,0 +1,8 @@
+map()
+This method creates a new array with the results of calling a function for every array element. It calls the provided function once for each element in an array, in order.
+
+Example:
+
+const numbers = [5, 10, 15, 20];
+const numbersMap = numbers.map(element => element * 5);
+console.log(numbersMap); //[25, 50, 75, 100];
