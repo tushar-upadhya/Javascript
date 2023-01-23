@@ -1,0 +1,35 @@
+Q.   What is Promise in JavaScript?
+Ans. promise is an object that may produce a single value sometime in the future. Either a resolved value or a rejected value.
+     promise is a good way to handle asynchronous operations. It is used to find out if the asynchronous operation is successfully 
+     completed or not.
+
+
+Promise has three possible states:
+
+A promise starts in the pending state, which indicates that the Promise hasn’t been completed yet.
+It ends with either resolved/fulfilled (successful) or rejected (failed) state.
+
+
+
+Benefits of Promises
+
+Improves Code Readability
+Better handling of asynchronous operations
+Better flow of control definition in asynchronous logic
+Better Error Handling
+
+
+Promise Chaining
+You can perform an operation after a promise is resolved using methods then(), catch() and finally().
+
+The then() method is used with the callback when the promise is successfully fulfilled or resolved.
+
+
+
+The syntax of then() the method is:
+
+promiseObject.then(onFulfilled, onRejected);
+
+
+JavaScript catch() method
+The catch() method is used with the callback when the promise is rejected or if an error occurs.
